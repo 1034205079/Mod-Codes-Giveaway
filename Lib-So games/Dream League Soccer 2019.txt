@@ -1,0 +1,10 @@
+CMyProfile::GetCredits(void)
+EXPORT _ZN10CMyProfile10GetCreditsEv
+_ZN10CMyProfile10GetCreditsEv
+; __unwind {
+MOV             R0, #0xFFFFFF
+BX              LR
+
+Arm: 6F F0 7F 40 70 47
+
+x86: B8 7f 96 98 00 C3
